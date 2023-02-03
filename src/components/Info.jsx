@@ -11,11 +11,7 @@ export default function Info() {
 			</a>
 			<div className="button-container">
 				<button className="email-button">Email</button>
-				<button
-					className="linkedin-button"
-					onclick="window.location.href='www.linkedin.com/in/mohamed-mejri-925157234';">
-					LinkedIn
-				</button>
+				<button className="linkedin-button">LinkedIn</button>
 			</div>
 		</div>
 	);
