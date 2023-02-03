@@ -1,0 +1,135 @@
+.container {
+	width: 550px;
+	background-color: #23252c;
+}
+
+.propic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 317px;
+	height: 317px;
+	object-fit: cover;
+	border: 1px solid #000000;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 10px 10px 0px 0px;
+}
+
+.info-section,
+.content-container {
+	margin: auto;
+	background-color: #1a1b21;
+	width: 317px;
+}
+
+.info-section > h1 {
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+.info-section > p {
+	font-size: 12.8px;
+	line-height: 15px;
+	text-align: center;
+	color: #f3bf99;
+}
+
+.info-section > a {
+	width: 228px;
+	font-size: 10.24px;
+	line-height: 150%;
+	text-align: center;
+	color: #f5f5f5;
+	border-top: 1px solid #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 13px 9px 11px;
+	width: 115px;
+	height: 34px;
+	background: #ffffff;
+	border: 1px solid #d1d5db;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	color: #374151;
+}
+
+.linkedin-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 13px 9px 11px;
+	width: 115px;
+	height: 34px;
+	background: #5093e2;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	color: #ffffff;
+	margin-left: 17px;
+}
+
+.about-title {
+	font-size: 16px;
+	line-height: 150%;
+	color: #f5f5f5;
+	padding-left: 36px;
+	padding-top: 30px;
+}
+
+.about-content {
+	width: 247px;
+	font-size: 10.24px;
+	line-height: 150%;
+	color: #dcdcdc;
+	padding-left: 36px;
+	padding-top: 5px;
+}
+
+.interests-title {
+	font-size: 16px;
+	line-height: 150%;
+	color: #f5f5f5;
+	padding-left: 36px;
+	padding-top: 30px;
+}
+
+.interests-content {
+	width: 247px;
+	font-size: 10.24px;
+	line-height: 150%;
+	color: #dcdcdc;
+	padding-left: 36px;
+	padding-top: 5px;
+	padding-bottom: 25px;
+}
+
+footer {
+	margin: auto;
+	width: 317px;
+	height: 64px;
+	background: #161619;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.icona {
+	background: #918e9b;
+	border-radius: 3.5px;
+}
